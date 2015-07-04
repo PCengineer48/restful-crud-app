@@ -1,0 +1,96 @@
+extends layout
+
+block content
+    h1= "Simple RESTful CRUD App"
+    p Welcome to my first RESTful CRUD App 
+    #wrapper
+        #userInfo
+            h2 User Info
+            p
+                strong Name:
+                |  <span id='userInfoName'></span>
+                br
+                strong Email:
+                |  <span id='userInfoEmail'></span>
+                br
+                strong Phone:
+                |  <span id='userInfoPhone'></span>
+                br
+                strong Address:
+                |  <span id='userInfoAddress'></span>
+                br
+                strong Age:
+                |  <span id='userInfoAge'></span>
+                br
+                strong Gender:
+                |  <span id='userInfoGender'></span>
+                br
+                strong University:
+                |  <span id='userInfoUniversity'></span>
+                br
+                strong Department:
+                |  <span id='userInfoDepartment'></span>
+                br
+                strong Education Level:
+                |  <span id='userInfoEducationLevel'></span>
+                
+        h2 User List
+        #userList
+            table
+                thead
+                    th Full Name
+                    th Email
+                    th Phone
+                    th Address
+                    th Age
+                    th Gender
+                    th University
+                    th Department
+                    th Education Level
+                    th Delete/Update
+                tbody
+        
+        // ADD USER
+        #addUserPanel
+            h2 Add User
+            #addUser
+                fieldset
+                    input#inputUserFullname(type='text', placeholder='Full Name')
+                    br
+                    input#inputUserEmail(type='text', placeholder='Email')
+                    input#inputUserPhone(type='text', placeholder='Phone')
+                    input#inputUserAddress(type='text', placeholder='Address')
+                    br
+                    input#inputUserAge(type='text', placeholder='Age')
+                    input#inputUserGender(type='text', placeholder='Gender')
+                    br
+                    input#inputUserUniversity(type='text', placeholder='University')
+                    input#inputUserDepartment(type='text', placeholder='Department')
+                    input#inputUserEducationLevel(type='text', placeholder='Education Level')
+                    br
+                    button#btnAddUser Add User
+        
+        // UPDATE USER
+        #updateUserPanel
+          h2 Update User
+          #updateUser
+            fieldset
+                input#updateUserFullname(type='text', placeholder='Full Name')
+                br
+                input#updateUserEmail(type='text', placeholder='Email')
+                input#updateUserPhone(type='text', placeholder='Phone')
+                input#updateUserAddress(type='text', placeholder='Address')
+                br
+                input#updateUserAge(type='text', placeholder='Age')
+                input#updateUserGender(type='text', placeholder='Gender')
+                br
+                input#updateUserUniversity(type='text', placeholder='University')
+                input#updateUserDepartment(type='text', placeholder='Department')
+                input#updateUserEducationLevel(type='text', placeholder='Education Level')
+                br
+                button#btnUpdateUser Update User
+                button#btnCancelUpdateUser Cancel
+        
+        
+        
+        
