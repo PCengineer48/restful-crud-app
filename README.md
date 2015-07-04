@@ -4,7 +4,7 @@ It is a complete project teaching the basics of REST and using them to build an 
 
 Note: If you want to run this sample code, you will need to create data directory in your repository, as my data directory has been removed from the repository.
 
-In your data directory, it needs to include your MongoDB database information in this directory. 
+In your data directory, it needs to include your MongoDB database information. 
 
 Author
 
