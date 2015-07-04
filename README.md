@@ -8,7 +8,7 @@ In your data directory, it needs to include your MongoDB database information.
 
 Author
 
-Sedat Can Uygur is a freelance full stack web developer. Previously I worked as a software intern in İlter Computer and Muğla University Computer Center.
+Sedat Can Uygur is a freelance full stack web developer. Previously I worked as a software intern in Ilter Computer and Muğla University Computer Center.
 
 Contents
 
